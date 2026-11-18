@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "carter-visuals",
+  "version": "${version}",
+  "name": "Carter Visuals",
+  "description": "Picture sky, streak rain, and wet puddles with sky reflections and ripples.",
+  "authors": ["CART3R"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.carter.visuals.CarterVisuals"] },
+  "mixins": [ { "config": "carter-visuals.mixins.json", "environment": "client" } ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
